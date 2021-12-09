@@ -3,6 +3,8 @@ import logo from './logo.svg'
 import './App.css'
 import 'pat-ui/dist/index.css'
 import { Carousel } from 'pat-ui'
+import 'pat-ui/dist/index.css'
+import { Button } from 'pat-ui'
 
 function App() {
 	const imageSrc = [
@@ -14,7 +16,8 @@ function App() {
 
 	return (
 		<div className='App'>
-			<Carousel
+			<Button btnType='primary'>PRESS ME</Button>
+			{/* <Carousel
 				style={{
 					width: 600,
 					height: 240,
@@ -30,7 +33,7 @@ function App() {
 						/>
 					</div>
 				))}
-			</Carousel>
+			</Carousel> */}
 		</div>
 	)
 }
